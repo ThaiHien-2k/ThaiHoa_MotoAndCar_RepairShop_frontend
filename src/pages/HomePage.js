@@ -1,13 +1,15 @@
 import React from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
+import Header from "../components/header";
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <>
-      <p>aaa</p>
+    <div>
+      <Header />
+      <h1>Home Page</h1>
       <Footer />
-    </>
+    </div>
   );
-}
+};
 
 export default HomePage;
