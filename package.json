@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "browser-sync": "^3.0.3",
     "cross-env": "^7.0.3",
     "react-router-dom": "^6.23.1"
   }

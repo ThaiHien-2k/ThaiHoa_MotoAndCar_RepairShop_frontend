@@ -1,11 +1,12 @@
+// src/components/Footer.js
 import React from "react";
 
 const Footer = () => {
-  return (
-    <footer>
-      <p>Footer content goes here.</p>
-    </footer>
-  );
+    return (
+        <footer>
+            <p>&copy; 2024 Car Repair Shop. All rights reserved.</p>
+        </footer>
+    );
 };
 
 export default Footer;
